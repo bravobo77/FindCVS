@@ -48,6 +48,9 @@
 		57D83E1128FE9E620002B3E5 /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D83DF528FE9E620002B3E5 /* daum_th_line.png */; };
 		57D83E1228FE9E620002B3E5 /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D83DF628FE9E620002B3E5 /* map_pin_shadow.png */; };
 		57D83E1328FE9E620002B3E5 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D83DF728FE9E620002B3E5 /* DaumMap.framework */; };
+		57D83E1528FFD3D40002B3E5 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D83E1428FFD3D40002B3E5 /* LocationData.swift */; };
+		57D83E1828FFD4300002B3E5 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D83E1728FFD4300002B3E5 /* KLDocument.swift */; };
+		57D83E1A28FFD52C0002B3E5 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D83E1928FFD52C0002B3E5 /* DetailListCellData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +106,9 @@
 		57D83DF528FE9E620002B3E5 /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
 		57D83DF628FE9E620002B3E5 /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
 		57D83DF728FE9E620002B3E5 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		57D83E1428FFD3D40002B3E5 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		57D83E1728FFD4300002B3E5 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
+		57D83E1928FFD52C0002B3E5 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +158,7 @@
 				57D83DB028FE9ADF0002B3E5 /* Assets.xcassets */,
 				57D83DB228FE9ADF0002B3E5 /* LaunchScreen.storyboard */,
 				57D83DB528FE9ADF0002B3E5 /* Info.plist */,
+				57D83E1628FFD3D80002B3E5 /* Entities */,
 			);
 			path = FindCVS;
 			sourceTree = "<group>";
@@ -229,6 +236,16 @@
 				57D83DEA28FE9E620002B3E5 /* MTMapCircle.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		57D83E1628FFD3D80002B3E5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				57D83E1428FFD3D40002B3E5 /* LocationData.swift */,
+				57D83E1728FFD4300002B3E5 /* KLDocument.swift */,
+				57D83E1928FFD52C0002B3E5 /* DetailListCellData.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,8 +346,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D83E1528FFD3D40002B3E5 /* LocationData.swift in Sources */,
+				57D83E1828FFD4300002B3E5 /* KLDocument.swift in Sources */,
 				57D83DAC28FE9AD90002B3E5 /* ViewController.swift in Sources */,
 				57D83DA828FE9AD90002B3E5 /* AppDelegate.swift in Sources */,
+				57D83E1A28FFD52C0002B3E5 /* DetailListCellData.swift in Sources */,
 				57D83DAA28FE9AD90002B3E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
