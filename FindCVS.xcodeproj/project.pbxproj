@@ -54,6 +54,9 @@
 		57D83E2028FFE0620002B3E5 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D83DF728FE9E620002B3E5 /* DaumMap.framework */; };
 		57D83E2128FFE0620002B3E5 /* DaumMap.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 57D83DF728FE9E620002B3E5 /* DaumMap.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57D83E2428FFE88D0002B3E5 /* MTMapViewError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D83E2328FFE88D0002B3E5 /* MTMapViewError.swift */; };
+		57F3476E290282BA000483C6 /* DetailListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3476D290282BA000483C6 /* DetailListCell.swift */; };
+		57F347702902856D000483C6 /* DetailListBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3476F2902856D000483C6 /* DetailListBackgroundView.swift */; };
+		57F3477229028590000483C6 /* DetailListBackgroundViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F3477129028590000483C6 /* DetailListBackgroundViewModel.swift */; };
 		61D3D0CC2D0E7F7106B0EA8E /* Pods_FindCVS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B60D1D7E850EF90A114579 /* Pods_FindCVS.framework */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +134,9 @@
 		57D83E1B28FFD5DA0002B3E5 /* LocationInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewController.swift; sourceTree = "<group>"; };
 		57D83E1E28FFD8380002B3E5 /* LocationInformationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModel.swift; sourceTree = "<group>"; };
 		57D83E2328FFE88D0002B3E5 /* MTMapViewError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTMapViewError.swift; sourceTree = "<group>"; };
+		57F3476D290282BA000483C6 /* DetailListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCell.swift; sourceTree = "<group>"; };
+		57F3476F2902856D000483C6 /* DetailListBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundView.swift; sourceTree = "<group>"; };
+		57F3477129028590000483C6 /* DetailListBackgroundViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListBackgroundViewModel.swift; sourceTree = "<group>"; };
 		603CE7631E8DDDB445935F33 /* Pods-FindCVS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindCVS.debug.xcconfig"; path = "Target Support Files/Pods-FindCVS/Pods-FindCVS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -280,6 +286,9 @@
 			children = (
 				57D83E1B28FFD5DA0002B3E5 /* LocationInformationViewController.swift */,
 				57D83E1E28FFD8380002B3E5 /* LocationInformationViewModel.swift */,
+				57F3476D290282BA000483C6 /* DetailListCell.swift */,
+				57F3476F2902856D000483C6 /* DetailListBackgroundView.swift */,
+				57F3477129028590000483C6 /* DetailListBackgroundViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -437,9 +446,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D83E1528FFD3D40002B3E5 /* LocationData.swift in Sources */,
+				57F347702902856D000483C6 /* DetailListBackgroundView.swift in Sources */,
+				57F3477229028590000483C6 /* DetailListBackgroundViewModel.swift in Sources */,
 				57D83E1828FFD4300002B3E5 /* KLDocument.swift in Sources */,
 				57D83E1C28FFD5DA0002B3E5 /* LocationInformationViewController.swift in Sources */,
 				57D83E2428FFE88D0002B3E5 /* MTMapViewError.swift in Sources */,
+				57F3476E290282BA000483C6 /* DetailListCell.swift in Sources */,
 				57D83DA828FE9AD90002B3E5 /* AppDelegate.swift in Sources */,
 				57D83E1A28FFD52C0002B3E5 /* DetailListCellData.swift in Sources */,
 				57D83DAA28FE9AD90002B3E5 /* SceneDelegate.swift in Sources */,
