@@ -35,7 +35,7 @@ class LocationInformationViewController: UIViewController {
         
         // 해당 값을 센터로 해서 맵을 이동시켜라
         viewModel.setMapCenter
-            .emit(to: self.rx.setMapCenterPoing)
+            .emit(to: mapView.rx.setMapCenterPoint)
             .disposed(by: disposeBag)
         
         // error message 연결
@@ -113,7 +113,7 @@ extension LocationInformationViewController: MTMapViewDelegate {
 }
 
 extension Reactive where Base: MTMapView {
-    var setMapCenterPoing: Binder<MTMapPoint> {
+    var setMapCenterPoint: Binder<MTMapPoint> {
         return Binder(base) { base, point in
             base.setMapCenter(point, animated: true)
         }
